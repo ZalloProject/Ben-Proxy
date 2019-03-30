@@ -1,0 +1,16 @@
+{
+  "name": "ghrphx01-proxy-server",
+  "version": "1.0.0",
+  "description": "Proxy server",
+  "main": "index.js",
+  "scripts": {
+    "test": "test",
+    "start": "nodemon server/server.js"
+  },
+  "author": "Ben",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.16.4",
+    "nodemon": "^1.18.10"
+  }
+}
