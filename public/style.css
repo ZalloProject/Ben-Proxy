@@ -1,0 +1,23 @@
+#photos {
+  display: flex;
+  justify-content: center;
+}
+
+#desc-form {
+  display: flex;
+  justify-content: center;
+  margin-right: 30px;
+}
+
+#similar-homes {
+  display: flex;
+  justify-content: center;
+}
+
+body {
+  background-color: aliceblue;
+} 
+
+.style__photoContainer___3Dk2Y {
+  background-color: aliceblue;
+}
