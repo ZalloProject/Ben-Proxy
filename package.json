@@ -5,7 +5,8 @@
   "main": "index.js",
   "scripts": {
     "test": "test",
-    "start": "nodemon server/server.js"
+    "start": "nodemon server/server.js",
+    "aws-start": "server/server.js"
   },
   "author": "Ben",
   "license": "ISC",
