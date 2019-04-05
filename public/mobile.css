@@ -15,10 +15,47 @@
 }
 
 /* gen desc container */
+.styles__containerMain___lRtqU {
+  width: 100vw !important;
+}
 
 /* agents container */
 .Form__form-outer-container___3GPyx {
-  margin-left: 150px;
+  margin: 0 auto;
 }
 
 /* similar homes container */
+.style__similarHomesSlidesContainer__lQ0TP {
+  flex-direction: column;
+}
+
+.similar-homes-container {
+  position: absolute;
+  left: 50%;
+  margin-left: -220px;
+}
+
+.style__similarHomesSeeAll__1uP5n {
+  margin-left: 31% !important;
+}
+
+/* background coloring */
+body {
+  background-color: aliceblue;
+} 
+
+.style__photoContainer___3Dk2Y {
+  background-color: aliceblue;
+}
+
+.style__mainContainer___3vB1T {
+  background-color: aliceblue;
+}
+
+.style__animationContainer___1Fd3E {
+  background-color: aliceblue;
+}
+
+.sc-bdVaJa {
+  background-color: aliceblue;
+}
