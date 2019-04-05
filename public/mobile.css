@@ -19,6 +19,14 @@
   width: 100vw !important;
 }
 
+#gendesc {
+  overflow: hidden;
+}
+
+#styles__calculatorButton___1te8p {
+  margin-right: 20px;
+}
+
 /* agents container */
 .Form__form-outer-container___3GPyx {
   margin: 0 auto;
