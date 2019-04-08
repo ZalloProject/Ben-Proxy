@@ -32,8 +32,8 @@
 }
 
 /* agents container */
-.Form__form-outer-container___3GPyx {
-  margin: 0 auto;
+.style__formOuterContainer___12WXq {
+  margin-left: 18%;
 }
 
 /* similar homes container */
@@ -49,6 +49,11 @@
 
 .style__similarHomesSeeAll__1uP5n {
   margin-left: 31% !important;
+}
+
+.style__similarHomesHeader__1rbsb {
+  display: flex;
+  justify-content: center;
 }
 
 /* background coloring */
