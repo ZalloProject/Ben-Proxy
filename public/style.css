@@ -1,3 +1,105 @@
+#holdsEverything {
+  overflow: hidden;
+  max-height: -webkit-fill-available;
+}
+
+body {
+  overflow: scroll !important;
+}
+
+/* #popContainer {
+  margin-left: 25%;
+} */
+
+#results {
+  padding-bottom: 131px;
+}
+
+.map-results-container {
+  display: flex;
+}
+
+.style__mainDiv___1iHSN {
+  width: 100%;
+}
+
+.style__closeStyle___3apra {
+  margin-left: 728.5px !important;
+}
+
+.style__closeStyle___3apra:hover {
+  cursor: pointer;
+}
+
+.style__prev___1juZM:hover {
+  cursor: pointer;
+}
+
+.style__next___ZiwjG{
+  cursor: pointer;
+}
+
+.style__rightButton___2RWkr:hover {
+  cursor: pointer;
+}
+
+.style__leftButton___aIzMN:hover {
+  cursor: pointer;
+}
+
+.XBUTTON:hover {
+  cursor: pointer;
+  background-color: #272222;;
+  color: white;
+  opacity: .8;
+}
+
+.XBUTTON {
+  font-size: 18px;
+  outline: none;
+  background-color: grey;
+  opacity: .5;
+  width: 30px;
+  position: fixed;
+}
+
+
+.style__next___ZiwjG {
+  margin-left: 942px !important;
+}
+
+#mainContainer {
+  width: 100% !important;
+  z-index: 1000;
+  height: 100%;
+  position: absolute;
+  top: 0px;
+  background-color: rgba(0, 0, 0, 0.6)  !important;
+  padding: 5px;
+  left: 0% !important;
+  overflow: scroll;
+}
+
+.style__mainContainer___3vB1T {
+  width: 100% !important;
+}
+
+.styles__bigBOX___3-KEG {
+  margin: auto;
+  width: 1000px
+}
+.googleMapContainer {
+  width: 100% !important;
+}
+#map {
+  margin-top: 20px;
+  width: 100vw;
+}
+
+#style__mainDiv___1iHSN {
+  width: 100%;
+}
+
 #photos {
   display: flex;
   justify-content: center;
@@ -12,6 +114,7 @@
 #similar-homes {
   display: flex;
   justify-content: center;
+  background-color: aliceblue
 }
 
 body {
@@ -37,4 +140,8 @@ body {
 .style__similarHomesHeader__1rbsb {
   display: flex;
   justify-content: center;
+}
+
+.styles__containerMid___135_T {
+  background-color: aliceblue;
 }

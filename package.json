@@ -6,7 +6,7 @@
   "scripts": {
     "test": "test",
     "start": "nodemon server/server.js",
-    "aws-start": "server/server.js"
+    "aws-start": "node server/server.js"
   },
   "author": "Ben",
   "license": "ISC",
