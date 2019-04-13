@@ -6,7 +6,6 @@
     <meta name="description" content="">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="style.css">
-    <!-- <link rel="stylesheet" media="screen and (max-width: 600px)" href="mobile.css"> -->
   </head>
   <body>
     <div id="holdsEverything">
@@ -18,8 +17,11 @@
       </div>
     </div>
     <div id="mainContainer" class="mainContainer">
+        <!-- <div class="header"><img class="zallowHeaderIMG" src="https://s3-us-west-2.amazonaws.com/agents-zallo/zalloLogo.jpg" alt="logo"><div class="xOut"><button class="XBUTTON">X</button></div></div> -->
         <div class="bigBOX">
+          <div class="header"><img class="zallowHeaderIMG" src="https://s3-us-west-2.amazonaws.com/agents-zallo/zalloLogo.jpg" alt="logo"><div class="xOut"><button class="XBUTTON">X</button></div></div>
           <div id="popContainer">
+            <!-- <div class="header"><img class="zallowHeaderIMG" src="https://s3-us-west-2.amazonaws.com/agents-zallo/zalloLogo.jpg" alt="logo"><div class="xOut"><button class="XBUTTON">X</button></div></div> -->
             <div id="photos"></div>
             <div class="containerMid">
               <div id="gendesc"></div>
@@ -27,15 +29,11 @@
             </div>
             <div id="similar-homes"></div>
           </div>
-          <div class="xOut">
+          <!-- <div class="xOut">
             X
-          </div>
+          </div> -->
         </div>
       </div>
-      <script >
-          document.querySelector(
-            ".xOut"
-          ).innerHTML = '<button class="XBUTTON">X</button>'</script>
       <script>window.addEventListener("house_view", e => {
           let mainContainer = document.getElementById("mainContainer");
           mainContainer.style.display = e.detail.houseView ? "unset" : "none";

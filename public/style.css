@@ -11,6 +11,10 @@ body {
   overflow: hidden;
 }
 
+.header {
+  width: 100vw !important;
+}
+
 .containerMid {
   flex-direction: column;
 }
@@ -147,6 +151,22 @@ body {
   width: 100vw;
 }
 
+.header {
+  height: 40px;
+  display: flex;
+  align-items: center;
+  position: fixed;
+  z-index: 100;
+  top: 0;
+  width: 972px;
+  background-color: aliceblue;
+  justify-content: space-between;
+}
+
+.zallowHeaderIMG {
+  height: 30px;
+}
+
 #mainContainer {
   display: none;
 }
@@ -211,8 +231,8 @@ body {
   outline: none;
   background-color: grey;
   opacity: .5;
-  width: 30px;
-  position: fixed;
+  width: 40px;
+  height: 40px;
 }
 
 
@@ -239,7 +259,8 @@ body {
 .bigBOX {
   display: flex;
   margin: auto;
-  width: 1000px
+  width: 1000px;
+  padding-top: 35px;
 }
 .googleMapContainer {
   width: 100% !important;
