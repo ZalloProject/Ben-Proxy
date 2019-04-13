@@ -11,12 +11,17 @@ body {
   overflow: hidden;
 }
 
+#photos {
+  width: 100vw
+}
+
 .header {
   width: 100vw !important;
 }
 
 .containerMid {
   flex-direction: column;
+  width: 100vw;
 }
 
 #similar-homes {
@@ -42,8 +47,12 @@ body {
 /* photo container */
 .style__mainContainer___3vB1T {
   height: 458px;
-  width: 100% !important;
+  width: 100vw !important;
   overflow: scroll !important;
+}
+
+.style__photoContainer___3Dk2Y {
+  width: 100vw;
 }
 
 .style__leftButton___aIzMN {
@@ -65,16 +74,36 @@ body {
 }
 
 #gendesc {
-  overflow: hidden;
+  /* overflow: hidden; */
+  width: 100vw;
 }
 
 #styles__calculatorMain___2v0RA {
   right: 21%;
 }
 
+.styles__containerTop___3ChHD {
+  width: 100vw;
+}
+
+.styles__containerFacts___uLa38 {
+  width: 100vw;
+}
+
+.styles__containerFactsItems___3mAzb {
+  width: 100vw;
+}
+
+.styles__interiorContainerInterior___3NeMb {
+  width: 100vw;
+}
 /* agents container */
 .style__formOuterContainer___12WXq {
   margin: auto;
+}
+
+#form-service {
+  width: 100vw;
 }
 
 /* similar homes container */
@@ -84,7 +113,7 @@ body {
 
 .similar-homes-container {
   position: absolute;
-
+  width: 100vw;
 }
 
 .style__similarHomesSeeAll__1uP5n {
@@ -94,6 +123,14 @@ body {
 .style__similarHomesHeader__1rbsb {
   display: flex;
   justify-content: center;
+}
+
+#similar-homes {
+  width: 100vw;
+}
+
+.style__similarHomesCarousel__3gRr- {
+  width: 100vw;
 }
 
 /* background coloring */
@@ -192,7 +229,7 @@ body {
 }
 
 .style__mainDiv___1iHSN {
-  width: 100%;
+  width: 100vw;
 }
 
 .style__closeStyle___3apra {
