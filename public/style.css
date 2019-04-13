@@ -16,7 +16,7 @@ body {
 }
 
 #similar-homes {
-  height: 100vh;
+  height: 20%;
 }
 
 #mainContainer {
@@ -53,18 +53,15 @@ body {
 /* gen desc container */
 
 #styles__calculatorButton___1te8p {
-  margin-right: 40px !important;
+  margin-right: 20px !important;
 }
 .styles__containerMain___lRtqU {
   width: 100vw !important;
+  margin: 0 !important;
 }
 
 #gendesc {
   overflow: hidden;
-}
-
-#styles__calculatorButton___1te8p {
-  margin-right: 20px;
 }
 
 #styles__calculatorMain___2v0RA {
@@ -83,8 +80,7 @@ body {
 
 .similar-homes-container {
   position: absolute;
-  left: 50%;
-  margin-left: -220px;
+
 }
 
 .style__similarHomesSeeAll__1uP5n {
@@ -217,7 +213,6 @@ body {
   opacity: .5;
   width: 30px;
   position: fixed;
-  top: -1px;
 }
 
 
