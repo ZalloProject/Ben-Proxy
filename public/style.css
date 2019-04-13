@@ -6,10 +6,20 @@
 } */
 /* body { overflow: hidden; height: 100%; } */
 
+@include chrome-styles {
+  #super-top-nav-bar { margin-top: 3%; }
+}
+
 @media screen and (max-width: 967px) {
 body {
-  overflow: hidden;
+  overflow-y: auto !important;
+  overflow-x: hidden !important;
+  width: 100vw;
 }
+
+/* .xOut {
+  margin-right: 5px;
+} */
 
 #photos {
   width: 100vw
@@ -114,10 +124,13 @@ body {
 .similar-homes-container {
   position: absolute;
   width: 100vw;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
 }
 
 .style__similarHomesSeeAll__1uP5n {
-  margin-left: 31% !important;
+  margin: auto !important;
 }
 
 .style__similarHomesHeader__1rbsb {
@@ -131,6 +144,7 @@ body {
 
 .style__similarHomesCarousel__3gRr- {
   width: 100vw;
+  justify-content: center;
 }
 
 /* background coloring */
@@ -161,9 +175,6 @@ body {
   }
   .googleMapContainer {
     height: 50vh !important;
-  }
-  body {
-    overflow: auto !important;
   }
   .style__results-container__142a4 {
     overflow-y: inherit !important;
@@ -217,7 +228,7 @@ body {
 }
 
 #results {
-  padding-bottom: 131px;
+  height: 100vh;
 }
 
 .style__results-container__142a4 {
@@ -229,7 +240,7 @@ body {
 }
 
 .style__mainDiv___1iHSN {
-  width: 100vw;
+  width: 100%;
 }
 
 .style__closeStyle___3apra {
@@ -277,8 +288,12 @@ body {
   margin-left: 942px !important;
 }
 
+.style__results-page-bar__CtGC4 {
+  padding-bottom: 25% !important;
+}
+
 #mainContainer {
-  width: 100% !important;
+  width: 95vw !important;
   z-index: 1000;
   height: 100%;
   position: absolute;
