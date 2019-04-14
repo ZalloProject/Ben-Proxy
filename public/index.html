@@ -32,7 +32,7 @@
       <script>window.addEventListener("house_view", e => {
           console.log('I GOT HERE!!!!')
           let mainContainer = document.getElementById("mainContainer");
-          mainContainer.style.display = e.detail.houseView ? "unset" : "none";
+          mainContainer.style.display = e.detail.houseView ? "block" : "none";
           let resultContainer = document.getElementById('results');
           resultContainer.style.display = e.detail.houseView ? "none" : "block";
           
