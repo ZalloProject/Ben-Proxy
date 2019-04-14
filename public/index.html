@@ -8,28 +8,29 @@
     <link rel="stylesheet" href="style.css">
   </head>
   <body>
-    <div id="holdsEverything">
-      <div id="super-top-nav-bar"></div>
-      <div id="search-bar"></div>
-      <div class="map-results-container">
-        <div id='map'></div>
-        <div id='results'></div>
-      </div>
-    </div>
-    <div id="mainContainer" class="mainContainer">
-        <div class="bigBOX">
-          <div class="header"><img class="zallowHeaderIMG" src="https://s3-us-west-2.amazonaws.com/agents-zallo/zalloLogo.jpg" alt="logo"><div class="xOut"><button class="XBUTTON">X</button></div></div>
-          <div id="popContainer">
-            <div id="photos"></div>
-            <div class="containerMid">
-              <div id="gendesc"></div>
-              <div id="form-service"></div>
-            </div>
-            <div id="similar-homes"></div>
-          </div>
+      <div id="holdsEverything">
+        <div id="super-top-nav-bar"></div>
+        <div id="search-bar"></div>
+        <div class="map-results-container">
+          <div id='map'></div>
+          <div id='results'></div>
         </div>
       </div>
+      <div id="mainContainer" class="mainContainer">
+          <div class="bigBOX">
+            <div class="header"><img class="zallowHeaderIMG" src="https://s3-us-west-2.amazonaws.com/agents-zallo/zalloLogo.jpg" alt="logo"><div class="xOut"><button class="XBUTTON">X</button></div></div>
+            <div id="popContainer">
+              <div id="photos"></div>
+              <div class="containerMid">
+                <div id="gendesc"></div>
+                <div id="form-service"></div>
+              </div>
+              <div id="similar-homes"></div>
+            </div>
+          </div>
+        </div> 
       <script>window.addEventListener("house_view", e => {
+          console.log('I GOT HERE!!!!')
           let mainContainer = document.getElementById("mainContainer");
           mainContainer.style.display = e.detail.houseView ? "unset" : "none";
           let resultContainer = document.getElementById('results');
