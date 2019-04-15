@@ -30,40 +30,10 @@
           </div>
         </div> 
       <script>window.addEventListener("house_view", e => {
-          console.log('I GOT HERE!!!!')
           let mainContainer = document.getElementById("mainContainer");
           mainContainer.style.display = e.detail.houseView ? "block" : "none";
           let resultContainer = document.getElementById('results');
           resultContainer.style.display = e.detail.houseView ? "none" : "block";
-          
-          // let photos = document.createElement('script');
-          // photos.async = true;
-          // photos.defer = true;
-          // photos.src = 'https://s3.us-east-2.amazonaws.com/fecappfiles/bundle.js'
-          // // let photoDiv = document.getElementById('photos');
-          
-          // let gendesc = document.createElement('script');
-          // gendesc.async = true;
-          // gendesc.defer = true;
-          // gendesc.src = "https://s3-us-west-1.amazonaws.com/zallo-project-gendesc-service/app-bundle.gz.js"
-          // // let gendescDiv = document.getElementById('gendesc');
-
-          // let similarHomes = document.createElement('script');
-          // similarHomes.async = true;
-          // similarHomes.defer = true;
-          // similarHomes.src = "https://s3-us-west-1.amazonaws.com/zallosimilarhomes/bundle-gz.js"
-          // // let simHomeDiv = document.getElementById('similar-homes')
-          
-          // let agents = document.createElement('script');
-          // agents.async = true;
-          // agents.defer = true;
-          // agents.src = "https://s3-us-west-2.amazonaws.com/agents-zallo/Zallo+Team+Files/form-service/bundleGZ.js";
-          // // let agentDiv = document.getElementById('form-service');
-
-          // document.body.appendChild(photos);
-          // document.body.appendChild(gendesc);
-          // document.body.appendChild(agents);
-          // document.body.appendChild(similarHomes);
         });
         document.querySelector(".xOut").addEventListener("click", e => {
           let mainContainer = document.getElementById("mainContainer");
